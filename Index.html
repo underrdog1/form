@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt Your Favourite Animal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <section class="form-container">
+        <h1>Adopt Your Favourite Animal</h1>
+        <form>
+            <div class="form-item">
+                <lable for="name">Your Name</lable>
+                <input type="text" id="name" placeholder="Enter Your Name" required>
+
+            </div>
+            <div class="form-item">
+                <label for="animal">Choose an animal</label>
+                <select id="animal" name="animal" required>
+                    <option selected disabled value="">Select Animal</option>
+                    <option value="cat">Cat</option>
+                    <option value="rabbit">Rabbit</option>
+                    <option value="dog">Dog</option>
+                </select>
+            </div>
+            <div class="form-item">
+                <label for="reason">Why do you want to adopt this animal?.</label>
+                <testarea id="reason" name="reason" rows="4" placeholder="Write your reason here..." required>
+                </testarea>
+
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
